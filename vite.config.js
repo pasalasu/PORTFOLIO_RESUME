@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: process.env.portfolio-resume || "/PORTFOLIO_RESUME"
+  base: process.env.portfolio || "/PORTFOLIO_RESUME"
 })
+
 
